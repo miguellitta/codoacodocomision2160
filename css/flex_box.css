@@ -1,0 +1,16 @@
+.principal{
+    display: flex;
+    justify-content: space-around;
+}
+.cuadro{
+    background-color: red;
+    color: yellow;
+    width: 20%;
+    height: 200px;
+    font-size: xx-large;
+}
+.black{
+    background-color: black;
+    color: white;
+}
+

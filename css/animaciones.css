@@ -41,7 +41,7 @@
     75%{ top: 0;}
     100%{left: 20px;}
 }
-#dos,#cuatro{
+#dos, #cuatro{
     position: absolute;
     animation-name: mover, flecha;
     animation-duration: 5s, 6s;
