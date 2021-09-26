@@ -14,10 +14,14 @@
     animation-name: flecha;
     animation-duration: 6s;
     animation-iteration-count: 2;
+    animation-direction: reverse;
+    animation-delay: 4s;
+    position: absolute;
+    left: 250px;
 }
 @keyframes flecha{
-    from{color: brown; top: 50px;}
-    to{color: blue; top: 250px;}
+    from{color: brown; top: 250px;}
+    to{color: blue; top: 50px;}
 }
 .cuadros{
     background-color: aqua;
@@ -37,16 +41,16 @@
 }
 @keyframes mover {
     25%{ top: 200px;left: 0px;}
-    50%{ left: 50px;}
+    50%{ left: 220px;}
     75%{ top: 0;}
     100%{left: 20px;}
 }
 #dos, #cuatro{
-    position: absolute;
+    position: relative;
     animation-name: mover, flecha;
     animation-duration: 5s, 6s;
     animation-iteration-count: infinite, infinite;
-    animation-delay: 0s, 5s;
+    
 }
 
 ul li{
@@ -79,4 +83,5 @@ ul li:hover{
         padding: 10px;
         background-color: blueviolet;
         color: white;
+    }
 }
