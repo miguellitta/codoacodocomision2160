@@ -1,8 +1,8 @@
-body{ 
+body{
     background-image: url("../img/fondo.png");
     background-size: 80%;
     background-repeat: no-repeat;
-    
+    background-attachment: fixed;
 }
 .btn-primary{
     background-color: chartreuse;
@@ -10,9 +10,6 @@ body{
 .btn-primary:hover{
     background-color: forestgreen;
 }
-.btn-primary:hover{
-    background-color: forestgreen !important;
-}
 .bg-otra{
-    background-color: blueviolet;
+    background-color: rgba(97, 34, 139, 0.548);
 }
