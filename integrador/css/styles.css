@@ -1,0 +1,58 @@
+nav img {
+    width: 120px;
+    margin-left: 50px;
+}
+
+.bg-nav-color {
+    background-color: #333942;
+}
+
+header {
+    background-image: url(../img/ba1.jpg);
+    background-size:cover;
+    background-position:center;
+}
+
+.bg-honolulu {
+    background-color: #333942  
+}
+
+.bg-image {
+    background-color: rgba(0, 0, 0, 0.5);   
+}
+
+.btn-success {
+    background-color: rgb(100, 168, 79);
+    color: white;
+}
+
+.ft-subtitulos{
+    font-size: small;
+}
+
+.ft-subtitulos2{
+    margin-right: 32px;
+}
+
+footer{
+    background-color: rgb(38, 81, 116);
+    padding: 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn-codo {
+    background-color: #97c93e;
+    color: white;
+    width: 98%;
+    margin: 2%;
+}
+
+/* footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+} */
