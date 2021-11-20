@@ -1,6 +1,8 @@
 
 package mi_primer_aplicacion;
 
+import accesorios.Auto;
+
 
 public class Mi_primer_aplicacion {
 
@@ -26,10 +28,16 @@ public class Mi_primer_aplicacion {
         Juego jugador = new Juego (0,3,"Mario","Hongos","Martillo");
         Juego jugador2 = new Juego (0,3,"Juan","Hongos","Martillo");
         Juego jugador3 = new Juego (0,3,"Juan","Hongos","Martillo");
+        
+        
         System.out.println("Mi nombre es " + jugador.personaje);
         System.out.println("Tengo: " + jugador.getVidas() + " Vidas");
         System.out.println(jugador.mostrarSaludo());
         System.out.println(jugador2.mostrarSaludo());
+        Auto miAuto = new Auto(250,5,"azul","deportivo","2021","qwk512");
+        miAuto.setEncendido(true);
+        System.out.println(miAuto.encender_auto());
+        
     }
     
 }
